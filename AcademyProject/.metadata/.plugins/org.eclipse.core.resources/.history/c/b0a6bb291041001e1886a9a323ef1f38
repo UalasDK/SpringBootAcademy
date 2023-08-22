@@ -1,4 +1,4 @@
-#Configuracao do thymeleaf
+#Configuração do thymeleaf
 
 spring.thymeleaf.mode=HTML
 spring.thymeleaf.cache=FALSE
