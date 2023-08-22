@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=width-device, initial-scale=1.0">
+<link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
+<title>Projeto Academy</title>
+<meta name="author" content="Jamerson Souza"/>
+<link rel="stylesheet" href="css/style.css">
+<script src="https://kit.fontawesome.com/0066422858d.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@@,400/1,600&family=Ubuntu&family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	
+	<header>
+		
+		<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #4527A0">
+			<a class="navbar-brand" href="#">
+				<img src="img/fundo.jpg" style="width: 130px; height: 80px;"/>
+			</a>	
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMobile">
+				<span class="navbar-toggler-icon"></span>	
+			</button>
+			
+			<div id="navMobile" class="navbar-collapse collapse justify-content-end">
+				<a class="nav-item nav-link">Home</a>
+				<a class="nav-item nav-link">Cadastrar Aluno</a>
+				<a class="nav-item nav-link">Pesquisar Aluno</a>
+				<a class="nav-item nav-link btn-danger">Sair</a>	
+			</div>
+			
+		</nav>
+	</header>
+
+	
+	
+	<script src="/webjars/jquery/3.7.0/jquery.min.js"></script>
+	<script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
